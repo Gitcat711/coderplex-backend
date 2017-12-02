@@ -1,19 +1,19 @@
 # Coderplex Backend
 
-**Note:** This repository uses **Python3.6** and **Django 1.11.x**
+[![flake8 code style](https://img.shields.io/badge/code_style-flake8-5ed9c7.svg)](http://flake8.pycqa.org/en/latest/) [![formatted with yapf](https://img.shields.io/badge/code_formatted_with-yapf-ff69b4.svg)](https://github.com/google/yapf) [![Build Status](https://travis-ci.org/coderplex/coderplex-backend.svg?branch=develop)](https://travis-ci.org/coderplex/coderplex-backend) [![Requirements Status](https://requires.io/github/coderplex/coderplex-backend/requirements.svg?branch=develop)](https://requires.io/github/coderplex/coderplex-backend/requirements/?branch=develop)
+ [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/coderplex/coderplex-backend/blob/develop/LICENSE)
 
-## Setup in dev
+## Follow our community here at [https://www.coderplex.org](https://www.coderplex.org)
 
-```bash
-git clone git://github.com/coderplex/coderplex-backend.git
-virtualenv -p python3 venv
-source venv/bin/activate
-pip install -r requirements/requirements.txt
-```
+> :construction: under active development, you can check progress on [Develop Branch](https://github.com/coderplex/coderplex-backend/tree/develop) which will be merged soon to the [Master Branch](https://github.com/coderplex/coderplex-backend/tree/master)
 
-### Running in local
+## About
 
-```bash
-source venv/bin/activate # python3
-python webapp/manage.py runserver # server accessible at localhost:8000
-```
+This project mainly uses
+
+* [Python 3.6](https://www.python.org/) - A widely used high-level programming language for general-purpose programming.
+* [Django 1.11.7](https://www.djangoproject.com/) - The web framework for perfectionists with deadlines.
+
+## Contributing
+
+We welcome pull requests from beginners and django developers alike!. You can work on open issues, fix bugs and more. Be sure to read our [contributing guide](.github/CONTRIBUTING.md) for hassel free contribution.
